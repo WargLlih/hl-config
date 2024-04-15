@@ -32,6 +32,7 @@ sudo pacman -S git \
                neovim \
                wl-clipboard \
                alsa-utils \
+               zsh \
                &&
 
 yay -S dracula-gtk-theme \
@@ -61,4 +62,5 @@ yay -S dracula-gtk-theme \
 
 # activate starship
 echo -e '\neval "$(starship init bash)"' >> ~/.bashrc
-
+echo -e '\neval "$(starship init zsh)"' >> ~/.zshrc
+chsh -s $(which zsh)
