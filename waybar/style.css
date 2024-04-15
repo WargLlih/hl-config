@@ -3,8 +3,10 @@
     border-radius: 0;
     font-family: "JetBrainsMono Nerd Font";
     font-weight: bold;
-    font-size: 14px;
+    font-size: 12px;
     min-height: 0;
+    background-color: rgba(21, 18, 27, 0);
+
 }
 
 window#waybar {
@@ -64,7 +66,6 @@ tooltip {
     opacity: 0.8;
     padding: 0px 10px;
     margin: 3px 0px;
-    margin-top: 10px;
     border: 1px solid #181825;
 }
 
