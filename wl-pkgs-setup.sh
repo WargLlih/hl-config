@@ -59,6 +59,7 @@ yay -S dracula-gtk-theme \
        swaybg \
        swaylock-effects \
        gvfs \
+       bluetuith \
        &&
 
 # activate starship
