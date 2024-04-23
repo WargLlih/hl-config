@@ -33,6 +33,7 @@ sudo pacman -S git \
                wl-clipboard \
                alsa-utils \
                zsh \
+               polkit-gnome
                &&
 
 yay -S dracula-gtk-theme \
