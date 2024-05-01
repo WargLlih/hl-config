@@ -33,15 +33,6 @@
     "hyprland/workspaces":{
         "on-click":"activate",
         "format":"{icon}",
-        "format-icons":{
-            "default":"",
-            "1":"",
-            "2":"",
-            "3":"",
-            "4":"",
-            "active":"󱓻",
-            "urgent":"󱓻"
-        },
         "persistent_workspaces":{
             "*":4
         }
