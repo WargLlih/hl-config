@@ -33,9 +33,6 @@
     "hyprland/workspaces":{
         "on-click":"activate",
         "format":"{icon}",
-        "persistent_workspaces":{
-            "*":4
-        }
     },
     "cpu":{
         "interval":1,
@@ -44,15 +41,15 @@
     },
     "memory":{
         "interval":3,
-        "format":"   {}% ",
+        "format":"内存 {}% ",
         "max-length":10
     },
     "temperature":{
         "thermal-zone":1,
         "interval": 10,
-        "format":"{temperatureF}°F ",
+        "format":"温 {temperatureF}°F",
         "critical-threshold":80,
-        "format-critical":"{temperatureC}°C "
+        "format-critical":"温 {temperatureC}°C"
     },
     "clock": {
         "format": "{:%H:%M} 时间",
