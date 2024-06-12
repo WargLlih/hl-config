@@ -16,14 +16,14 @@ truncation_length = 3
 truncation_symbol = "…/"
 
 [directory.substitutions]
-"Documents" = " "
-"Downloads" = " "
-"Music" = " "
+"Documents" = "文件"
+"Downloads" = "下载"
+"Music" = "音乐"
 "Pictures" = " "
+"roy" = "家"
 
 [git_branch]
 symbol = ""
-
 
 [nodejs]
 symbol = ""
