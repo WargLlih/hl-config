@@ -3,16 +3,13 @@
 # hyprland: This is the Hyprland compositor
 # kitty: This is the default terminal
 # waybar: Waybar now has hyprland support
-# swaybg: This is used to set a desktop background image
 # swaylock-effects: This allows for the locking of the desktop its a fork that adds some editional visual effects
 # wofi: This is an application launcher menu
-# wlogout: This is a logout menu that allows for shutdown, reboot and sleep
 # mako: This is a graphical notification daemon
 # thunar: This is a graphical file manager
 # ttf-jetbrains-mono-nerd: Som nerd fonts for icons and overall look
 # noto-fonts-emoji: fonts needed by the weather script in the top bar
 # polkit-gnome: needed to get superuser access on some graphical appliaction
-# python-requests: needed for the weather module script to execute
 # starship: allows to customize the shell prompt
 # swappy: This is a screenshot editor tool
 # grim: This is a screenshot tool it grabs images from a Wayland compositor
@@ -21,7 +18,6 @@
 # brightnessctl: used to control monitor bright level
 # gvfs: adds missing functionality to thunar such as automount usb drives
 # bluez: the bluetooth service
-# bluez-utils: command line utilities to interact with bluettoth devices
 # lxappearance: used to set GTK theme
 # xfce4-settings: set of tools for xfce, needed to set GTK theme
 # dracula-gtk-theme: the Dracula theme, it fits the overall look and feel
@@ -40,7 +36,6 @@ yay -S dracula-gtk-theme \
        dracula-icons-git \
        lxappearance \
        xfce4-settings \
-       wlogout \
        mako \
        thunar \
        starship \
@@ -53,10 +48,7 @@ yay -S dracula-gtk-theme \
        ttf-jetbrains-mono-nerd \
        noto-fonts-emoji \
        bluez \
-       bluez-utils \
-       python-requests \
        xdg-desktop-portal-hyprland \
-       swaybg \
        swaylock-effects \
        gvfs \
        bluetuith \
