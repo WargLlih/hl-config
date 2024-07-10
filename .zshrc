@@ -6,7 +6,7 @@ unsetopt beep
 bindkey -e
 # End of lines configured by zsh-newuser-install
 # The following lines were added by compinstall
-zstyle :compinstall filename '/home/roy/.zshrc'
+zstyle :compinstall filename '/home/roy/.config/.zshrc'
 
 autoload -Uz compinit
 compinit
