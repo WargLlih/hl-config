@@ -14,6 +14,7 @@ sudo pacman -S git \
                filelight \
                zsh-autosuggestions \
                zsh-syntax-highlighting \
+               ripgrep \
                &&
 
 
