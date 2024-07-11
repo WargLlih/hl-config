@@ -12,6 +12,8 @@ sudo pacman -S git \
                hyprpaper \
                adobe-source-han-sans-cn-fonts \
                filelight \
+               zsh-autosuggestions \
+               zsh-syntax-highlighting \
                &&
 
 

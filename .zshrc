@@ -4,9 +4,7 @@ HISTSIZE=1000
 SAVEHIST=1000
 unsetopt beep
 bindkey -e
-# End of lines configured by zsh-newuser-install
-# The following lines were added by compinstall
-zstyle :compinstall filename '/home/roy/.config/.zshrc'
+bindkey '^[[Z' reverse-menu-complete
 
 autoload -Uz compinit
 compinit
@@ -17,12 +15,11 @@ eval "$(starship init zsh)"
 # Use powerline
 USE_POWERLINE="true"
 
-
 # zsh-syntax-highlighting
-source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 # zsh-autosuggestions
-source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Personal Alias
 alias p="readlink -f"
