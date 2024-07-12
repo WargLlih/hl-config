@@ -15,6 +15,9 @@ sudo pacman -S git \
                zsh-autosuggestions \
                zsh-syntax-highlighting \
                ripgrep \
+               node \
+               npm \
+               unzip \
                &&
 
 
