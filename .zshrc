@@ -4,11 +4,8 @@ HISTSIZE=1000
 SAVEHIST=1000
 unsetopt beep
 bindkey -e
-bindkey '^[[Z' reverse-menu-complete
 
-autoload -Uz compinit
-compinit
-# End of lines added by compinstall
+bindkey '^[[Z' reverse-menu-complete
 
 eval "$(starship init zsh)"
 
@@ -24,7 +21,11 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Personal Alias
 alias p="readlink -f"
 alias ls="ls --color=auto"
-alias ll=ls -la
+alias ll="ls -la"
+
+alias @hl-config="nvim ~/WargLlih/hl-config/"
+alias @nvim="nvim ~/WargLlih/nvim/"
+
 
 export PATH=$PATH:/home/roy/go/bin
 export CLICOLOR=1
