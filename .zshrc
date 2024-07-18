@@ -24,6 +24,7 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 # Personal Alias
 alias p="readlink -f"
 alias ls="ls --color=auto"
+alias ll=ls -la
 
 export PATH=$PATH:/home/roy/go/bin
 export CLICOLOR=1
